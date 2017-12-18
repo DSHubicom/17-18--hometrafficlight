@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.marcos.hometrafficlight.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="203dp"
+        android:text="Seleccione el siguiente botón para activar/desactivar el envío de información al servidor"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.149" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="138dp"
+        android:layout_height="79dp"
+        android:layout_marginRight="123dp"
+        android:layout_marginTop="72dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="ToggleButton"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textOff="Activar"
+        android:textOn="Desactivar"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</android.support.constraint.ConstraintLayout>
